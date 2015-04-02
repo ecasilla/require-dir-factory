@@ -13,7 +13,7 @@ The requiredir module has unit tests built around it than can be used to verify 
 
      npm test require-dir-factory
 
-require-dir-factory's tests are compatible with Node.js 0.9 and higher. 
+require-dir-factory's tests are compatible with Node.js 0.8 and higher. 
 
 ## Usage ##
 
