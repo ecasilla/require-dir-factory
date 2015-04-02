@@ -8,9 +8,6 @@ node_js:
   - "iojs-v1.0.4" 
 
 notifications:
-  irc:
-    channels:
-      - "irc.freenode.org#periodicjs"
     template:
       - "Build by %{author} :"
       - "Git Info: %{branch} - %{commit} with the message %{commit_message}"
