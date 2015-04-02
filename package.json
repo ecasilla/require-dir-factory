@@ -1,0 +1,25 @@
+{
+  "name": "requiredir-factory",
+  "version": "1.0.0",
+  "description": "A module that allow you to require a file or directory and automaticall instantiate or call a fn",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecasilla/require-dir-factory"
+  },
+  "keywords": [
+    "require",
+    "directory",
+    "files",
+    "factory"
+  ],
+  "author": "Ernie Casilla <ecasilla@icloud.com> (http://www.erniecasilla.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecasilla/require-dir-factory/issues"
+  },
+  "homepage": "https://github.com/ecasilla/require-dir-factory"
+}
