@@ -7,14 +7,14 @@ module.exports = {
     src:{
       html: 'test/runner.html',
       js: 'lib/**/*.js',
-      test: 'test/unitTests/**/*js'
+      test: 'test/spec/**/*js'
     }
   },
   lint:{
-    all:['test/**/*.js','Gruntfile.js']
+    all:['test/**/*.js','gulpfile.js']
   },
   spec:{
-    path:'test/unitTests/**/*.js',
+    path:'test/spec/**/*.js',
     options:{
       ui:'bdd',
       growl: true,
@@ -23,10 +23,10 @@ module.exports = {
   },
   prettify:{
     js:{
-      files:[]
+      files:['lib/**/*.js','test/**/*.js']
     },
     html:{
-      files:[]
+      files:['test/**/*.html']
     },
     css:{
       files:[]

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="../node_modules/mocha/mocha.css" type="text/css"  />
+</head>
+<body>
+
+  <div id="mocha"></div>
+
+  <!-- Vendor -->
+  <script src="../node_modules/mocha/mocha.js"></script>
+  <script src="../node_modules/chai/chai.js" ></script>
+  <script>
+    mocha.setup('bdd');
+    // Setup chai
+    var assert = chai.assert,
+    should = chai.should,
+    expect = chai.expect;
+  </script>
+  <!-- lib:js -->
+
+
+  <script src="/lib/index.js"></script>
+
+
+  <!-- endinject -->
+
+  <!-- test:js -->
+
+
+  <!-- endinject -->
+
+  <script src="runner.js"></script>
+  </body>
+</html>
