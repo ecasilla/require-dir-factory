@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - "0.10"
+
+notifications:
+  irc:
+    channels:
+      - "irc.freenode.org#periodicjs"
+    template:
+      - "Build by %{author} :"
+      - "Git Info: %{branch} - %{commit} with the message %{commit_message}"
+      - "Travis states: %{message}"
+      - "Build Details: %{build_url}"
+      - "Change View: %{compare_url}"
+      - "result = %{result}"
+      - "elapsed time... %{duration}"
+    use_notice: true
+    skip_join: false
+
+branches:
+  only:
+    - master
+    - devel
+git:
+  submodules: false  
