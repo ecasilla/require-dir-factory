@@ -6,8 +6,8 @@ module.exports = {
   runner:{
     src:{
       html: 'test/runner.html',
-      js: 'lib/**/*.js',
-      test: 'test/spec/**/*js'
+      js: '../lib/**/*.js',
+      test: 'spec/**/*js'
     }
   },
   lint:{

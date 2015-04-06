@@ -8,6 +8,7 @@
     "describe": true,
     "it": true,
     "should": true,
-    "expect": true
+    "expect": true,
+    "window": true
   }
 }

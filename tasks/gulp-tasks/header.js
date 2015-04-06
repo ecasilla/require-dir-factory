@@ -3,7 +3,7 @@ var header = require('gulp-header'),
 
     config = require('../config');
 
-var pkg = require('./package.json');
+var pkg = require('../../package.json');
 var banner = [
   '/**',
   ' * <%= pkg.name %> -',

@@ -1,5 +1,3 @@
-var mocha = require('mocha');
-
 (function() {
   'use strict';
   var runner;

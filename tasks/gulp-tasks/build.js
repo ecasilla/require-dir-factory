@@ -5,8 +5,6 @@ var gulp = require('gulp'),
 gulp.task('build', [
   'clean',
   'lint',
-  'prettify-html',
-  'prettify-css',
   'format-js',
   'test:unit'
 ]);
