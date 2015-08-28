@@ -13,6 +13,7 @@
   "devDependencies": {
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
+    "gulp-browserify": "^0.5.1",
     "gulp-filesize": "0.0.6",
     "gulp-header": "^1.2.2",
     "gulp-inject": "^1.1.1",

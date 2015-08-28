@@ -3,6 +3,8 @@ var root = process.cwd();
 'use strict';
 
 module.exports = {
+  lib:['lib/**/*.js'],
+  test:['test/**/*.js'],
   runner:{
     src:{
       html: 'test/runner.html',
@@ -11,7 +13,7 @@ module.exports = {
     }
   },
   lint:{
-    all:['test/**/*.js','gulpfile.js']
+    all:['lib/**/*.js','test/**/*.js','gulpfile.js']
   },
   spec:{
     path:'test/spec/**/*.js',
